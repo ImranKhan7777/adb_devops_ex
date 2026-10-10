@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: adb-app-config
+data:
+  DB_HOST: adb-postgres
+  DB_PORT: "5432"
+  DB_NAME: adbapp
+  POSTGRES_DB: adbapp
